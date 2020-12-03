@@ -9,6 +9,14 @@ module.exports = {
 
     theme: {
         extend: {
+            colors: {
+                huntblue: {
+                    DEFAULT: '#00437c',
+                },
+                huntgreen: {
+                    DEFAULT: '#556423',
+                }
+            },
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
