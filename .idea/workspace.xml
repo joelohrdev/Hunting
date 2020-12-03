@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd7f58b5-feea-41b1-bd35-f3d5eac65b43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/Permit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_03_200245_create_permits_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/permit/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/nav-link.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/nav-link.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +170,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607020529717</updated>
-      <workItem from="1607020531743" duration="5151000" />
+      <workItem from="1607020531743" duration="5917000" />
     </task>
     <task id="LOCAL-00001" summary="Added logo">
       <created>1607021858770</created>
@@ -194,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607023467098</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Permit Model and Migration">
+      <created>1607026136904</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607026136904</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +211,7 @@
     <MESSAGE value="Added logo" />
     <MESSAGE value="Enabled Profile Photos" />
     <MESSAGE value="Added Blue and Green colors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Blue and Green colors" />
+    <MESSAGE value="Added Permit Model and Migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Permit Model and Migration" />
   </component>
 </project>
