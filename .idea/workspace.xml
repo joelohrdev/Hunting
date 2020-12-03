@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd7f58b5-feea-41b1-bd35-f3d5eac65b43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/permit/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/Permits.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/permits.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_03_200245_create_permits_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_03_200245_create_permits_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/permit/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/permit/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +175,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607020529717</updated>
-      <workItem from="1607020531743" duration="5917000" />
+      <workItem from="1607020531743" duration="11590000" />
     </task>
     <task id="LOCAL-00001" summary="Added logo">
       <created>1607021858770</created>
@@ -200,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607026136904</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Permit Route and Index View">
+      <created>1607027002691</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607027002691</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +224,7 @@
     <MESSAGE value="Enabled Profile Photos" />
     <MESSAGE value="Added Blue and Green colors" />
     <MESSAGE value="Added Permit Model and Migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Permit Model and Migration" />
+    <MESSAGE value="Added Permit Route and Index View" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Permit Route and Index View" />
   </component>
 </project>

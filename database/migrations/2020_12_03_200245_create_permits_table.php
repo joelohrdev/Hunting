@@ -17,7 +17,7 @@ class CreatePermitsTable extends Migration
             $table->id();
             $table->unsignedBigInteger('user_id');
             $table->string('number');
-            $table->text('description');
+            $table->text('description')->nullable();
             $table->timestamps();
         });
     }

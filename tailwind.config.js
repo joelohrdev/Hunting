@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors');
 
 module.exports = {
     purge: [
@@ -7,9 +8,12 @@ module.exports = {
         './resources/views/**/*.blade.php',
     ],
 
+    darkMode: false,
+
     theme: {
         extend: {
             colors: {
+                gray: colors.trueGray,
                 huntblue: {
                     DEFAULT: '#00437c',
                 },
@@ -27,5 +31,8 @@ module.exports = {
         opacity: ['responsive', 'hover', 'focus', 'disabled'],
     },
 
-    plugins: [require('@tailwindcss/ui')],
+    plugins: [
+        require('@tailwindcss/ui'),
+        require('@tailwindcss/forms'),
+    ],
 };
